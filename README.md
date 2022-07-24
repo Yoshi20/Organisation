@@ -49,7 +49,7 @@
 - gem 'cookies_eu' (to add a minimum cookie consent banner)
 - gem 'simple_form' (allows to generate more simple forms)
 
-### development
+### development
 
 - gem 'pry'
 - gem 'brakeman'
