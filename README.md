@@ -10,6 +10,13 @@
 | Inactive | IoT-Rex | 2.6.5 | 6.0.1 | 1.2.3 | React (16.11.0) |
 | Inactive | Anime-Sammlung | 2.3.0 | 4.2.4 | 0.18.4 | Bootstrap (3.3.5) |
 
+## Frontend Toolkits
+
+- https://getbootstrap.com/
+- https://material.io/
+- https://tailwindcss.com/
+- https://www.beercss.com/
+
 ## Gems Toolbox
 
 ### must have
