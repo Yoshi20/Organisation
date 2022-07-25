@@ -22,42 +22,42 @@
 ### must have
 
 - gem 'devise' # (flexible authentication solution)
-- gem 'haml-rails' # (HAML)
-- gem 'rails_12factor' # (Heroku integration)
-- gem 'figaro' # (ENV file: config/application.yml)
-- gem 'exception_notification'
 - gem 'devise-i18n' # (devise locale data collection)
+- gem 'exception_notification'
+- gem 'figaro' # (ENV file: config/application.yml)
+- gem 'haml-rails' # (HAML)
+- gem 'http_accept_language' # (to detect the users preferred language)
 - gem 'rails-i18n' # (rails locale data collection)
+- gem 'rails_12factor' # (Heroku integration)
 
 ### situational
 
-- gem 'select2-rails' # (makes select boxes awesome)
-- gem 'will_paginate' # (pagination)
-- gem 'httparty' # (makes http requests fun again)
-- gem 'recaptcha' # (helper methods for the reCAPTCHA API)
 - gem 'acts_as_list' # (for sorting and reordering objects in a list)
-- gem 'pusher-push-notifications' # (Pusher Beams using the Pusher system)
-- gem 'spreadsheet' # (excel files handling)
-- gem 'paper_trail' # (to track changes to your models, for auditing or versioning)
-- gem 'i18n-js' # (to export translations to JavaScript)
 - gem 'acts-as-taggable-on' # (to easily add tags to a model)
-- gem 'twilio-ruby' (helper methods for the Twilio API)
+- gem 'httparty' # (makes http requests fun again)
+- gem 'i18n-js' # (to export translations to JavaScript)
 - gem 'image_processing' # (to provides higher-level image processing helpers)
+- gem 'paper_trail' # (to track changes to your models, for auditing or versioning)
 - gem 'prawn' # (fast, nimble PDF generation for ruby)
+- gem 'pusher-push-notifications' # (Pusher Beams using the Pusher system)
+- gem 'recaptcha' # (helper methods for the reCAPTCHA API)
 - gem 'rqrcode' # (for creating and rendering QR codes into various formats)
+- gem 'select2-rails' # (makes select boxes awesome)
+- gem 'spreadsheet' # (excel files handling)
+- gem 'twilio-ruby' (helper methods for the Twilio API)
+- gem 'will_paginate' # (pagination)
 
 ### nice to have
 
-- gem 'material_icons' # (+900 set of icons based on Material Design guidelines)
-- gem "font-awesome-rails" (font-awesome icons)
-- gem 'http_accept_language' # (to detect the users preferred language)
-- gem 'popper_js' # (for tooltips & popovers)
-- gem 'meta-tags' # (to make your app SEO-friendly)
 - gem 'cookies_eu' (to add a minimum cookie consent banner)
+- gem "font-awesome-rails" (font-awesome icons)
+- gem 'material_icons' # (+900 set of icons based on Material Design guidelines)
+- gem 'meta-tags' # (to make your app SEO-friendly)
+- gem 'popper_js' # (for tooltips & popovers)
 - gem 'simple_form' (allows to generate more simple forms)
 
 ### development
 
-- gem 'pry'
 - gem 'brakeman'
+- gem 'pry'
 - gem 'rails_best_practices'
