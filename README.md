@@ -4,7 +4,7 @@
 
 | Status (2022) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- |
-| WIP | oxocare-home | 3.1.2 | 7.0.3 | 1.1.? | Beercss (2.2.1) | esbuild |
+| WIP | oxocare-home | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.1) | esbuild |
 | Active | SSB-Tournament-Manager | 3.1.2 | 7.0.2 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline |
 | Active | ERUPT-IoT | 3.0.0 | 6.1.0 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline |
 | WIP | normwert_wandler | 3.0.0 | 6.1.3 | 1.1.3 | Materialize (1.0.0) | asset pipeline |
@@ -13,6 +13,8 @@
 
 ## Create new rails app
 
+cd ~/Rails_Projects
+gem update bundle && gem update --system
 rails new <my_app> --database=postgresql --javascript=esbuild
 
 ## Frontend Toolkits
