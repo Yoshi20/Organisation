@@ -36,6 +36,7 @@ rails new <my_app> --database=postgresql --javascript=esbuild
 - gem 'http_accept_language' # (to detect the users preferred language)
 - gem 'rails-i18n' # (rails locale data collection)
 - gem 'rails_12factor' # (Heroku integration)
+- gem 'sassc-rails' # Use SCSS for stylesheets
 
 ### situational
 
