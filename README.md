@@ -16,7 +16,7 @@
 ```
 cd ~/Rails_Projects
 gem update bundle && gem update --system
-rails new <my_app> --database=postgresql --javascript=esbuild
+rails new <my_app> --database=postgresql --javascript=esbuild --css=sass
 ```
 
 ## Frontend Toolkits
