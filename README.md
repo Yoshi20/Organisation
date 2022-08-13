@@ -69,5 +69,7 @@ rails new <my_app> --database=postgresql --javascript=esbuild
 ### development
 
 - gem 'brakeman'
+- gem 'factory_bot'
 - gem 'pry'
 - gem 'rails_best_practices'
+- gem 'rspec'
