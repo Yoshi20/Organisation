@@ -40,7 +40,7 @@ rails new <my_app> --database=postgresql --javascript=esbuild
 - gem 'rails_12factor' # (Heroku integration)
 - gem 'sassc-rails' # Use Sass to process CSS
 
-### situational
+### situational must have
 
 - gem 'acts_as_list' # (for sorting and reordering objects in a list)
 - gem 'acts-as-taggable-on' # (to easily add tags to a model)
@@ -52,24 +52,40 @@ rails new <my_app> --database=postgresql --javascript=esbuild
 - gem 'pusher-push-notifications' # (Pusher Beams using the Pusher system)
 - gem 'recaptcha' # (helper methods for the reCAPTCHA API)
 - gem 'rqrcode' # (for creating and rendering QR codes into various formats)
-- gem 'select2-rails' # (makes select boxes awesome)
+- gem 'select2-rails' # (makes select boxes awesome) -> or use https://tom-select.js.org/ instead (to not use jQuery)
 - gem 'spreadsheet' # (excel files handling)
 - gem 'twilio-ruby' (helper methods for the Twilio API)
 - gem 'will_paginate' # (pagination)
 
 ### nice to have
 
+- gem 'caxlsx' # (Um Excel Dateien zu generieren)
+- gem 'caxlsx_rails'
 - gem 'cookies_eu' (to add a minimum cookie consent banner)
 - gem "font-awesome-rails" (font-awesome icons)
 - gem 'material_icons' # (+900 set of icons based on Material Design guidelines)
 - gem 'meta-tags' # (to make your app SEO-friendly)
+- gem 'newrelic_rpm' # (Performance Analyse in Prdouction)
+- gem 'pluck_to_hash' # (.pluck direkt als Hash statt Array)
 - gem 'popper_js' # (for tooltips & popovers)
+- gem 'rollbar' # / gem 'honeybadger' (Error handling)
+- gem 'ruby-progressbar' # (Progressbar für rake tasks)
 - gem 'simple_form' (allows to generate more simple forms)
 
 ### development
 
 - gem 'brakeman'
-- gem 'factory_bot'
+- gem 'bullet' # (DB Query und Index Analyse)
 - gem 'pry'
+- gem 'pry-rails' # (pry automatisch laden)
+- gem 'rack-mini-profiler' # (Performance Analyse)
 - gem 'rails_best_practices'
+
+### testing
+
+- gem 'database_cleaner'
+- gem 'factory_bot'
 - gem 'rspec'
+- gem 'rspec_junit_formatter'
+- gem 'simplecov'
+- gem 'timecop'
