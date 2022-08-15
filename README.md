@@ -4,7 +4,7 @@
 
 | Status (2022) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- |
-| WIP | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.1) | esbuild |
+| WIP | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.3 | 1.4.3 | Beercss (2.2.1) | esbuild |
 | WIP | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.1) | esbuild |
 | Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.0.2 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline |
 | Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.0.0 | 6.1.0 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline |
