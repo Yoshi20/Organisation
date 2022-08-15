@@ -4,6 +4,7 @@
 
 | Status (2022) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- |
+| WIP | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.1) | esbuild |
 | WIP | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.1) | esbuild |
 | Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.0.2 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline |
 | Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.0.0 | 6.1.0 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline |
@@ -38,7 +39,7 @@ rails new <my_app> --database=postgresql --javascript=esbuild
 - gem 'http_accept_language' # (to detect the users preferred language)
 - gem 'rails-i18n' # (rails locale data collection)
 - gem 'rails_12factor' # (Heroku integration)
-- gem 'sassc-rails' # Use Sass to process CSS
+- gem 'sassc-rails' # (Use Sass to process CSS) -> or use sass-rails instead
 
 ### situational must have
 
@@ -46,9 +47,9 @@ rails new <my_app> --database=postgresql --javascript=esbuild
 - gem 'acts-as-taggable-on' # (to easily add tags to a model)
 - gem 'httparty' # (makes http requests fun again)
 - gem 'i18n-js' # (to export translations to JavaScript)
-- gem 'image_processing' # (to provides higher-level image processing helpers)
+- gem 'image_processing' # (to provide higher-level image processing helpers)
 - gem 'paper_trail' # (to track changes to your models, for auditing or versioning)
-- gem 'prawn' # (fast, nimble PDF generation for ruby)
+- gem 'prawn' # (fast, nimble PDF generation for ruby) -> or gem 'pdfkit' or gem 'wickedpdf'
 - gem 'pusher-push-notifications' # (Pusher Beams using the Pusher system)
 - gem 'recaptcha' # (helper methods for the reCAPTCHA API)
 - gem 'rqrcode' # (for creating and rendering QR codes into various formats)
@@ -59,21 +60,24 @@ rails new <my_app> --database=postgresql --javascript=esbuild
 
 ### nice to have
 
-- gem 'caxlsx' # (Um Excel Dateien zu generieren)
+- gem 'aasm' # (for state maschines)
+- gem 'carrierwave' (for attachments when active-storage is not sufficient) -> or gem 'paperclip'
+- gem 'caxlsx' # (to generate excel data)
 - gem 'caxlsx_rails'
-- gem 'cookies_eu' (to add a minimum cookie consent banner)
-- gem "font-awesome-rails" (font-awesome icons)
-- gem 'material_icons' # (+900 set of icons based on Material Design guidelines)
+- gem 'cookies_eu' # (to add a minimum cookie consent banner)
+- gem 'jbuilder' # (for json formating)
+- gem 'material_icons' # (+900 set of icons) -> or gem 'font-awesome-rails' # (font-awesome icons)
 - gem 'meta-tags' # (to make your app SEO-friendly)
-- gem 'newrelic_rpm' # (Performance Analyse in Prdouction)
-- gem 'pluck_to_hash' # (.pluck direkt als Hash statt Array)
+- gem 'newrelic_rpm' # (performance analyse in prdouction)
+- gem 'pluck_to_hash' # (.pluck directly as hash instead of array)
 - gem 'popper_js' # (for tooltips & popovers)
-- gem 'rollbar' # / gem 'honeybadger' (Error handling)
-- gem 'ruby-progressbar' # (Progressbar für rake tasks)
+- gem 'rollbar' # (error handling) -> or gem 'honeybadger'
+- gem 'ruby-progressbar' # (progressbar for rake tasks)
 - gem 'simple_form' (allows to generate more simple forms)
 
 ### development
 
+- gem 'better_errors'
 - gem 'brakeman'
 - gem 'bullet' # (DB Query und Index Analyse)
 - gem 'pry'
@@ -83,6 +87,7 @@ rails new <my_app> --database=postgresql --javascript=esbuild
 
 ### testing
 
+- gem 'cucumber'
 - gem 'database_cleaner'
 - gem 'factory_bot'
 - gem 'rspec'
