@@ -4,9 +4,9 @@
 
 | Status (2022) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---- |
-| WIP | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.3 | 1.4.3 | Beercss (2.1.3) | esbuild | railway.app |
+| WIP | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.4 | 1.4.3 | Beercss (2.1.3) | esbuild | railway.app |
 | WIP | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.11) | esbuild | |
-| Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.0.2 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline | heroku.com |
+| Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.0.4 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline | heroku.com |
 | Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.0.0 | 6.1.0 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline | heroku.com |
 | WIP | [normwert_wandler](https://github.com/Embedded-Science/normwert_wandler) | 3.0.0 | 6.1.3 | 1.1.3 | Materialize (1.0.0) | asset pipeline | heroku.com |
 | Inactive | [IoT-Rex](https://github.com/Yoshi20/IoT-Rex) | 2.6.5 | 6.0.1 | 1.2.3 | React (16.11.0) | asset pipeline | |
