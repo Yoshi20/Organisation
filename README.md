@@ -4,11 +4,11 @@
 
 | Status (2022) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---- |
-| WIP | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.4 | 1.4.3 | Beercss (2.1.3) | esbuild | railway.app |
+| WIP | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.4 | 1.4.3 | Beercss (2.1.3) | esbuild | heroku.com ($16) |
 | WIP | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.11) | esbuild | |
-| Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.0.4 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline | heroku.com |
-| Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.1.2 | 6.1.7 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline | heroku.com |
-| WIP | [normwert_wandler](https://github.com/Embedded-Science/normwert_wandler) | 3.0.0 | 6.1.3 | 1.1.3 | Materialize (1.0.0) | asset pipeline | heroku.com |
+| Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.0.4 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline | heroku.com ($16) |
+| Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.1.2 | 6.1.7 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline | ??? |
+| WIP | [normwert_wandler](https://github.com/Embedded-Science/normwert_wandler) | 3.0.0 | 6.1.3 | 1.1.3 | Materialize (1.0.0) | asset pipeline | ??? |
 | Inactive | [IoT-Rex](https://github.com/Yoshi20/IoT-Rex) | 2.6.5 | 6.0.1 | 1.2.3 | React (16.11.0) | asset pipeline | |
 | Inactive | [Anime-Sammlung](https://github.com/Yoshi20/Anime-Sammlung) | 2.3.0 | 4.2.4 | 0.18.4 | Bootstrap (3.3.5) | asset pipeline | |
 
@@ -28,6 +28,8 @@ rails new <my_app> --database=postgresql --javascript=esbuild --css=sass
 - https://www.beercss.com/
 
 ## Gems Toolbox
+
+https://www.ruby-toolbox.com/
 
 ### must have
 
@@ -85,7 +87,7 @@ rails new <my_app> --database=postgresql --javascript=esbuild --css=sass
 - gem 'rack-mini-profiler' # (Performance Analyse)
 - gem 'rails_best_practices'
 
-### testing
+### testing
 
 - gem 'cucumber'
 - gem 'database_cleaner'
@@ -94,3 +96,17 @@ rails new <my_app> --database=postgresql --javascript=esbuild --css=sass
 - gem 'rspec_junit_formatter'
 - gem 'simplecov'
 - gem 'timecop'
+
+## Hosting
+
+### Virtual Private Server (VPS)
+
+1. https://www.hostinger.com/vps-hosting#slide1
+2. https://www.digitalocean.com/
+3. https://www.hetzner.com/webhosting/level-4
+
+### Platform as a Service (PaaS)
+
+1. Heroku
+2. Railway App
+3. EngineYard
