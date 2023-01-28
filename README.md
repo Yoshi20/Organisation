@@ -4,6 +4,7 @@
 
 | Status (2023) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---- |
+| WIP | [Beer-Button](https://github.com/Yoshi20/Beer-Button) | 3.1.2 | 7.0.4 | 1.4.5 | Beercss (3.0.8) | esbuild | |
 | WIP | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.4 | 1.4.3 | Beercss (2.1.3) | esbuild | heroku.com ($16) |
 | WIP | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.11) | esbuild | |
 | Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.0.4 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline | heroku.com ($16) |
@@ -18,6 +19,11 @@
 cd ~/Rails_Projects
 gem update bundle && gem update --system
 rails new <my_app> --database=postgresql --javascript=esbuild --css=sass
+cd <my_app>
+git add .
+git commit -m "init"
+git remote add origin git@github.com:Yoshi20/<my_app>.git
+git push -u -f origin main
 ```
 
 ## Frontend Toolkits
