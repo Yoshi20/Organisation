@@ -9,7 +9,7 @@
 | WIP | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.11) | esbuild | |
 | Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.0.4 | 1.1.3 | Bootstrap (4.3.1) | asset pipeline | heroku.com ($16) |
 | Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.1.2 | 6.1.7 | 1.1.4 | Bootstrap (4.3.1) | asset pipeline | Hetzner (4€) |
-| WIP | [normwert_wandler](https://github.com/Embedded-Science/normwert_wandler) | 3.1.2 | 6.1.7 | 1.1.4 | Materialize (1.0.0) | asset pipeline | ??? |
+| WIP | [normwert_wandler](https://github.com/Embedded-Science/normwert_wandler) | 3.1.2 | 6.1.7 | 1.1.4 | Materialize (1.0.0) | asset pipeline | Hetzner (4€) |
 | Inactive | [IoT-Rex](https://github.com/Yoshi20/IoT-Rex) | 2.6.5 | 6.0.1 | 1.2.3 | React (16.11.0) | asset pipeline | |
 | Inactive | [Anime-Sammlung](https://github.com/Yoshi20/Anime-Sammlung) | 2.3.0 | 4.2.4 | 0.18.4 | Bootstrap (3.3.5) | asset pipeline | |
 
