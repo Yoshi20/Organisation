@@ -4,7 +4,7 @@
 
 | Status (2023) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---- |
-| WIP | [Member-Card](https://github.com/Embedded-Science/member-card) | 3.1.2 | 7.0.4 | 1.4.5 | Beercss (3.0.8) | esbuild | Hetzner (4€) |
+| Active | [Member-Card](https://github.com/Embedded-Science/member-card) | 3.1.2 | 7.0.4 | 1.4.6 | Beercss (3.0.8) | esbuild | Hetzner (4€) |
 | WIP | [Beer-Button](https://github.com/Yoshi20/Beer-Button) | 3.1.2 | 7.0.4 | 1.4.5 | Beercss (3.0.8) | esbuild | |
 | WIP | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.4 | 1.4.3 | Beercss (2.1.3) | esbuild | heroku.com ($16) |
 | WIP | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.11) | esbuild | |
@@ -106,6 +106,10 @@ https://www.ruby-toolbox.com/
 
 ## Hosting
 
+### Self
+
+1. https://www.hetzner.com/cloud
+
 ### Virtual Private Server (VPS)
 
 1. https://www.hostinger.com/vps-hosting#slide1
@@ -117,3 +121,7 @@ https://www.ruby-toolbox.com/
 1. Heroku
 2. Railway App
 3. EngineYard
+
+## Healthcheck & Monitoring
+
+- https://app.honeybadger.io/users/sign_in
