@@ -4,7 +4,7 @@
 
 | Status (2023) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---- |
-| Active | [Member-Card](https://github.com/Embedded-Science/member-card) | 3.1.2 | 7.0.4 | 1.4.6 | Beercss (3.0.8) | esbuild | Hetzner (4€) |
+| Active | [Member-Card](https://github.com/Embedded-Science/member-card) | 3.1.2 | 7.0.4 | 1.5.3 | Beercss (3.0.8) | esbuild | Hetzner (4€) |
 | WIP | [Beer-Button](https://github.com/Yoshi20/Beer-Button) | 3.1.2 | 7.0.4 | 1.4.5 | Beercss (3.0.8) | esbuild | |
 | WIP | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.4 | 1.4.3 | Beercss (2.1.3) | esbuild | heroku.com ($16) |
 | WIP | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.11) | esbuild | |
@@ -42,9 +42,9 @@ https://www.ruby-toolbox.com/
 
 - gem 'devise' # (flexible authentication solution)
 - gem 'devise-i18n' # (devise locale data collection)
-- gem 'exception_notification'
 - gem 'figaro' # (ENV file: config/application.yml)
 - gem 'haml-rails' # (HAML)
+- gem 'honeybadger' # (health check & exception notification)
 - gem 'http_accept_language' # (to detect the users preferred language)
 - gem 'rails-i18n' # (rails locale data collection)
 - gem 'rails_12factor' # (Heroku integration)
@@ -66,6 +66,7 @@ https://www.ruby-toolbox.com/
 - gem 'spreadsheet' # (excel files handling)
 - gem 'twilio-ruby' (helper methods for the Twilio API)
 - gem 'will_paginate' # (pagination)
+- gem 'mina' # (autom. deployment)
 
 ### nice to have
 
@@ -77,7 +78,7 @@ https://www.ruby-toolbox.com/
 - gem 'jbuilder' # (for json formating)
 - gem 'material_icons' # (+900 set of icons) -> or gem 'font-awesome-rails' # (font-awesome icons)
 - gem 'meta-tags' # (to make your app SEO-friendly)
-- gem 'newrelic_rpm' # (performance analyse in prdouction)
+- gem 'newrelic_rpm' # (performance analyse in production)
 - gem 'pluck_to_hash' # (.pluck directly as hash instead of array)
 - gem 'popper_js' # (for tooltips & popovers)
 - gem 'rollbar' # (error handling) -> or gem 'honeybadger'
@@ -122,6 +123,6 @@ https://www.ruby-toolbox.com/
 2. Railway App
 3. EngineYard
 
-## Healthcheck & Monitoring
+## Health check & Monitoring
 
 - https://app.honeybadger.io/users/sign_in
