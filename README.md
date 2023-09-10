@@ -4,13 +4,13 @@
 
 | Status (2023) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---- |
-| Active | [Member-Card](https://github.com/Embedded-Science/member-card) | 3.1.2 | 7.0.7 | 1.5.3 | Beercss (3.3.1) | esbuild | Hetzner (4€) |
+| WIP | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.8 | 1.5.4 | Beercss (3.3.5) | esbuild | |
+| Active | [Member-Card](https://github.com/Embedded-Science/member-card) | 3.1.2 | 7.0.7 | 1.5.3 | Beercss (3.3.1) | esbuild | Hetzner (~6€) |
 | WIP | [Beer-Button](https://github.com/Yoshi20/Beer-Button) | 3.1.2 | 7.0.4 | 1.4.5 | Beercss (3.0.8) | esbuild | |
 | onHold | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.4 | 1.4.3 | Beercss (2.1.3) | esbuild | heroku.com ($16) |
-| WIP | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.3 | 1.4.2 | Beercss (2.2.11) | esbuild | |
 | Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.0.7 | 1.1.4 | Bootstrap (4.3.1) | asset pipeline | heroku.com ($16) |
-| Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.1.2 | 6.1.7 | 1.1.4 | Bootstrap (4.3.1) | asset pipeline | Hetzner (4€) |
-| WIP | [normwert_wandler](https://github.com/Embedded-Science/normwert_wandler) | 3.1.2 | 6.1.7 | 1.1.4 | Materialize (1.0.0) | asset pipeline | Hetzner (4€) |
+| Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.1.2 | 6.1.7 | 1.1.4 | Bootstrap (4.3.1) | asset pipeline | Hetzner (~4€) |
+| onHold | [normwert_wandler](https://github.com/Embedded-Science/normwert_wandler) | 3.1.2 | 6.1.7 | 1.1.4 | Materialize (1.0.0) | asset pipeline | Hetzner (~4€) |
 | Inactive | [IoT-Rex](https://github.com/Yoshi20/IoT-Rex) | 2.6.5 | 6.0.1 | 1.2.3 | React (16.11.0) | asset pipeline | |
 | Inactive | [Anime-Sammlung](https://github.com/Yoshi20/Anime-Sammlung) | 2.3.0 | 4.2.4 | 0.18.4 | Bootstrap (3.3.5) | asset pipeline | |
 
@@ -19,7 +19,7 @@
 ```
 cd ~/Rails_Projects
 gem update bundle && gem update --system
-rails new <my_app> --database=postgresql --javascript=esbuild --css=sass
+rails new <my_app> --database=postgresql --javascript=esbuild --css=postcss
 cd <my_app>
 git add .
 git commit -m "init"
@@ -47,8 +47,6 @@ https://www.ruby-toolbox.com/
 - gem 'honeybadger' # (health check & exception notification)
 - gem 'http_accept_language' # (to detect the users preferred language)
 - gem 'rails-i18n' # (rails locale data collection)
-- gem 'rails_12factor' # (Heroku integration)
-- gem 'sassc-rails' # (Use Sass to process CSS) -> or use sass-rails instead
 
 ### situational must have
 
@@ -126,3 +124,4 @@ https://www.ruby-toolbox.com/
 ## Health check & Monitoring
 
 - https://app.honeybadger.io/users/sign_in
+
