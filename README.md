@@ -2,8 +2,9 @@
 
 ## Rails Repos
 
-| Status (2023) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | host |
+| Status (2024) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---- |
+| WIP | [BsSApp](https://github.com/Yoshi20/bssapp) | 3.3.0 | 7.1.3 | 1.5.6 | Bootstrap (5.3.3) | esbuild | Hetzner (~4€) |
 | WIP | [nb-iot](https://github.com/Embedded-Science/nb-iot) | 3.3.0 | 7.1.3 | 1.5.4 | Bootstrap (5.3.2) | esbuild | Hetzner (by lv) |
 | Active | [Beer-Button](https://github.com/Yoshi20/Beer-Button) | 3.3.0 | 7.1.3 | 1.5.4 | Beercss (3.3.5) | esbuild | Hetzner (~0€)* |
 | Active | [Member-Card](https://github.com/Embedded-Science/member-card) | 3.3.0 | 7.1.3 | 1.5.4 | Beercss (3.3.5) | esbuild | Hetzner (~6.5€) |
