@@ -5,7 +5,7 @@
 | Status (2024) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---- |
 | WIP | [nb-iot](https://github.com/Embedded-Science/nb-iot) | 3.3.0 | 7.1.3 | 1.5.6 | Bootstrap (5.3.3) | esbuild | Hetzner (by lv) |
-| Active | [Member-Card/Profile-Card](https://github.com/Embedded-Science/member-card) | 3.3.0 | 7.1.3 | 1.5.6 | Beercss (3.5.8) | esbuild | Hetzner (~6.5€) |
+| Active | [Member-Card/Profile-Card](https://github.com/Embedded-Science/member-card) | 3.3.0 | 7.1.3 | 1.5.6 | Beercss (3.6.5) | esbuild | Hetzner (~6.5€) |
 | Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.1.3 | 1.1.4 | Bootstrap (4.6.2) | asset pipeline | heroku.com ($16) |
 | Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.1.2 | 6.1.7 | 1.5.6 | Bootstrap (4.3.1) | asset pipeline | Hetzner (~4€) |
 | onHold | [BsSApp](https://github.com/Yoshi20/bssapp) | 3.3.0 | 7.1.3 | 1.5.6 | Bootstrap (5.3.3) | esbuild | Hetzner (~4€) |
