@@ -4,12 +4,12 @@
 
 | Status (2024) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---- |
-| WIP | [BsSApp](https://github.com/Yoshi20/bssapp) | 3.3.0 | 7.1.3 | 1.5.6 | Bootstrap (5.3.3) | esbuild | Hetzner (~4€) |
-| WIP | [nb-iot](https://github.com/Embedded-Science/nb-iot) | 3.3.0 | 7.1.3 | 1.5.4 | Bootstrap (5.3.2) | esbuild | Hetzner (by lv) |
-| Active | [Beer-Button](https://github.com/Yoshi20/Beer-Button) | 3.3.0 | 7.1.3 | 1.5.4 | Beercss (3.3.5) | esbuild | Hetzner (~0€)* |
-| Active | [Member-Card](https://github.com/Embedded-Science/member-card) | 3.3.0 | 7.1.3 | 1.5.4 | Beercss (3.3.5) | esbuild | Hetzner (~6.5€) |
-| Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.0.7 | 1.1.4 | Bootstrap (4.3.1) | asset pipeline | heroku.com ($16) |
-| Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.1.2 | 6.1.7 | 1.1.4 | Bootstrap (4.3.1) | asset pipeline | Hetzner (~4€) |
+| WIP | [nb-iot](https://github.com/Embedded-Science/nb-iot) | 3.3.0 | 7.1.3 | 1.5.6 | Bootstrap (5.3.3) | esbuild | Hetzner (by lv) |
+| Active | [Member-Card/Profile-Card](https://github.com/Embedded-Science/member-card) | 3.3.0 | 7.1.3 | 1.5.6 | Beercss (3.5.8) | esbuild | Hetzner (~6.5€) |
+| Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.1.3 | 1.1.4 | Bootstrap (4.6.2) | asset pipeline | heroku.com ($16) |
+| Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.1.2 | 6.1.7 | 1.5.6 | Bootstrap (4.3.1) | asset pipeline | Hetzner (~4€) |
+| onHold | [BsSApp](https://github.com/Yoshi20/bssapp) | 3.3.0 | 7.1.3 | 1.5.6 | Bootstrap (5.3.3) | esbuild | Hetzner (~4€) |
+| onHold | [Beer-Button](https://github.com/Yoshi20/Beer-Button) | 3.3.0 | 7.1.3 | 1.5.5 | Beercss (3.3.5) | esbuild | Hetzner (~0€)* |
 | onHold | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.4 | 1.4.3 | Beercss (2.1.3) | esbuild | heroku.com ($16) |
 | onHold | [normwert_wandler](https://github.com/Embedded-Science/normwert_wandler) | 3.1.2 | 7.1.0 | 1.5.4 | Materialize (1.0.0) | asset pipeline | Hetzner (~4.5€)* |
 | Inactive | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.8 | 1.5.4 | Beercss (3.3.5) | esbuild | |
