@@ -5,7 +5,7 @@
 | Status (2024) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---- |
 | Active | [Systemia](https://github.com/Yoshi20/Systemia) | 3.3.0 | 7.2.1 | 1.5.7 | | esbuild | Hetzner (~0€)* |
-| Active | [Member-Card/Profile-Card](https://github.com/Embedded-Science/member-card) | 3.3.0 | 7.1.3 | 1.5.6 | Beercss (3.6.5) | esbuild | Hetzner (~6.5€) |
+| Active | [Member-Card/Profile-Card/City-Deals](https://github.com/Embedded-Science/member-card) | 3.3.0 | 7.1.3 | 1.5.6 | Beercss (3.6.5) | esbuild | Hetzner (~6.5€) |
 | Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.1.3 | 1.1.4 | Bootstrap (4.6.2) | asset pipeline | heroku.com ($16) |
 | Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.1.2 | 6.1.7 | 1.5.6 | Bootstrap (4.3.1) | asset pipeline | Hetzner (~4€) |
 | onHold | [nb-iot](https://github.com/Embedded-Science/nb-iot) | 3.3.0 | 7.1.3 | 1.5.6 | Bootstrap (5.3.3) | esbuild | Hetzner (by lv) |
@@ -24,12 +24,26 @@
 ```
 cd ~/Rails_Projects
 gem update bundle && gem update --system
-rails new <my_app> --database=postgresql --javascript=esbuild --css=postcss
+rails new <my_app> --database=postgresql --javascript=esbuild --css=postcss --skip-action-mailbox --skip-action-text --skip-test --skip-jbuilder
 cd <my_app>
 git add .
 git commit -m "init"
 git remote add origin git@github.com:Yoshi20/<my_app>.git
 git push -u -f origin main
+```
+
+skips explained:
+- action-mailbox  -> to handle incoming emails => not needed as an external service is normally used for this
+- action-text     -> allows formatted text by the Trix editor on a model by impl. -> has_rich_text :content => not needed for most apps
+- test            -> test files => not needed when rspec is used
+- jbuilder        -> Jbuilder gives you a simple DSL for declaring JSON structures => not needed for most apps
+
+javascript hot reload:
+```
+  gem 'vite_rails' # https://vite-ruby.netlify.app/
+
+  once: bundle exec vite install
+  run:  bin/vite dev
 ```
 
 ## Frontend Toolkits
