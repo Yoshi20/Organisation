@@ -4,7 +4,7 @@
 
 | Status (2024) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | deployment | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---------- | ---- |
-| Active | [levitate](https://github.com/Levitate-Aerospace/levitate) | 3.3.0 | 8.0.1 | 1.5.9 | | esbuild | kamal | Hetzner (~0€)* |
+| Active | [levitate](https://github.com/Levitate-Aerospace/levitate) | 3.3.0 | 8.0.1 | 1.5.9 | | esbuild | kamal | Hetzner (~4€) |
 | Active | [Systemia](https://github.com/Yoshi20/Systemia) | 3.3.0 | 7.2.1 | 1.5.7 | | esbuild | mina | Hetzner (~0€)* |
 | Active | [Member-Card/Profile-Card/City-Deals](https://github.com/Embedded-Science/member-card) | 3.3.0 | 8.0.0 | 1.5.9 | Beercss (3.9.4) | esbuild | mina | Hetzner (~6.5€) |
 | Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.1.3 | 1.1.4 | Bootstrap (4.6.2) | asset pipeline | heroku | heroku.com ($16) |
