@@ -2,17 +2,17 @@
 
 ## Rails Repos
 
-| Status (2024) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | deployment | host |
+| Status (2025) | Name | Ruby version | Rails version | PG version | Frontend toolkit | javascript | deployment | host |
 | ------------- | ---- | ------------ | ------------- | ---------- | ---------------- | ---------- | ---------- | ---- |
-| Active | [levitate](https://github.com/Levitate-Aerospace/levitate) | 3.3.0 | 8.0.1 | 1.5.9 | | esbuild | kamal | Hetzner (~4€) |
 | Active | [Systemia](https://github.com/Yoshi20/Systemia) | 3.3.0 | 7.2.1 | 1.5.7 | | esbuild | mina | Hetzner (~4.5€)* |
 | Active | [Member-Card/Profile-Card/City-Deals](https://github.com/Embedded-Science/member-card) | 3.3.0 | 8.0.0 | 1.5.9 | Beercss (3.9.4) | esbuild | mina | Hetzner (~6.5€) |
-| Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.1.3 | 1.1.4 | Bootstrap (4.6.2) | asset pipeline | heroku | heroku.com ($16) |
+| Active | [SSB-Tournament-Manager](https://github.com/Yoshi20/SSB-Tournament-Manager) | 3.1.2 | 7.1.3 | 1.1.4 | Bootstrap (4.6.2) | asset pipeline | heroku | heroku.com ($13) |
 | Active | [ERUPT-IoT](https://github.com/Yoshi20/ERUPT-IoT) | 3.1.2 | 6.1.7 | 1.5.6 | Bootstrap (4.3.1) | asset pipeline | mina | Hetzner (~4€) |
-| onHold | [nb-iot](https://github.com/Embedded-Science/nb-iot) | 3.3.0 | 7.1.3 | 1.5.6 | Bootstrap (5.3.3) | esbuild | mina | Hetzner (by lv) |
 | onHold | [BsSApp](https://github.com/Yoshi20/bssapp) | 3.3.0 | 7.1.3 | 1.5.6 | Bootstrap (5.3.3) | esbuild | mina | Hetzner (~0€)* |
 | onHold | [Beer-Button](https://github.com/Yoshi20/Beer-Button) | 3.3.0 | 7.1.3 | 1.5.5 | Beercss (3.3.5) | esbuild | mina | Hetzner (~0€)* |
 | onHold | [normwert_wandler](https://github.com/Embedded-Science/normwert_wandler) | 3.1.2 | 7.1.0 | 1.5.4 | Materialize (1.0.0) | asset pipeline | mina | Hetzner (~0€)* |
+| Inactive | [nb-iot](https://github.com/Embedded-Science/nb-iot) | 3.3.0 | 7.1.3 | 1.5.6 | Bootstrap (5.3.3) | esbuild | mina | Hetzner (by lv) |
+| Inactive | [levitate](https://github.com/Levitate-Aerospace/levitate) | 3.3.0 | 8.0.1 | 1.5.9 | | esbuild | kamal | |
 | Inactive | [DeadArtists-AI](https://github.com/Yoshi20/DeadArtists-Ai) | 3.1.2 | 7.0.4 | 1.4.3 | Beercss (2.1.3) | esbuild | | |
 | Inactive | [oxocare-home](https://github.com/Embedded-Science/oxocare-home) | 3.1.2 | 7.0.8 | 1.5.4 | Beercss (3.3.5) | esbuild | | |
 | Inactive | [IoT-Rex](https://github.com/Yoshi20/IoT-Rex) | 2.6.5 | 6.0.1 | 1.2.3 | React (16.11.0) | asset pipeline | | |
